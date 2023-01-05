@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.svg" alt="Sunnyside" class="header-logo">
+      <div class="nav-links-wrapper mobile-hide">
+        <ul>
+          <li class="nav-links">About</li>
+          <li class="nav-links">Services</li>
+          <li class="nav-links">Projects</li>
+        </ul>
+      </div>
+      <button class="nav-button mobile-hide">Contact</button>
+
+      <div class="mobile-menu-container desktop-hide">
+        <img src="images/icon-hamburger.svg" alt="clicky me" class="hamburger-button">
+        <div class="mobile-nav-container">
+          <ul class="mobile-nav-links-wrapper">
+            <li class="mobile-links">About</li>
+            <li class="mobile-links">Services</li>
+            <li class="mobile-links">Projects</li>
+          </ul>
+          <button class="mobile-nav-button">
+            contact
+          </button>
+        </div>
+      </div>
+
+
+    </nav>
+    <div class="header-title-wrapper">
+      <h1 class="header-title">WE ARE CREATIVES</h1>
+      <a href="#griddy">
+        <img src="images/icon-arrow-down.svg" alt="arrow-down" class="arrow-down">
+      </a>
+    </div>
+  </header>
+
+  <section class="transform-section benefit">
+    <article class="description">
+      <h1 class="benefit-title"> Transform your brand
+      </h1>
+      <p class="benefit-description"> We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a href="#" class="learn-more">LEARN MORE</a>
+    </article>
+    <!-- <img src="images/desktop/image-transform.jpg" alt="" class="standalone-img"> -->
+    <div class="egg standalone-bg-img"></div>
+  </section>
+
+  <section class="standout-section row-reverse">
+    <article class="description grid-item">
+      <h1 class="benefit-title"> Stand out to the right audience
+      </h1>
+      <p class="benefit-description"> Using a collaborative formula of designers, researchers, photographers,
+        videographers, and copywriters, we’ll build
+        and extend your brand in digital places.</p>
+      <a href="#" class="learn-more soft-red">LEARN MORE</a>
+    </article>
+    <!-- <img src="images/desktop/image-stand-out.jpg" alt="" class="standalone-img"> -->
+    <div class="cup grid-item standalone-bg-img"></div>
+  </section>
+
+  <section class="features-container">
+    <article class="graphic-design feature grid-item">
+      <h3 class="feature-title">Graphic Design</h3>
+      <p class="feature-description"> Great design makes you memorable. We deliver artwork that underscores your brand
+        message and captures potential
+        clients’ attention.</p>
+    </article>
+
+    <article class="photography  feature grid-item">
+      <h3 class=" feature-title">Photography</h3>
+      <p class="feature-description"> Increase your credibility by getting the most stunning, high-quality photos that
+        improve your business image.</p>
+    </article>
+  </section>
+
+
+  <section class="testimonies-section">
+    <h3>CLIENT TESTIMONIES</h3>
+    <div class="testimonies-section-wrapper">
+      <div class="individual-testimonies">
+        <img src="images/image-emily.jpg" alt="(- -)" class="testifier-image">
+        <p class="testimony"> We put our trust in Sunnyside and they delivered, making sure our needs were met and
+          deadlines were always hit.</p>
+        <p class="testifier-profile"><span class="testifier-name"> Emily R.</span>
+          <span class="testifier-job"> Marketing Director
+          </span>
+        </p>
+      </div>
+
+      <div class="individual-testimonies">
+        <img src="images/image-thomas.jpg" alt="(- -)" class="testifier-image">
+        <p class="testimony"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
+          satisfying and enjoyable
+          experience.</p>
+        <p class="testifier-profile"><span class="testifier-name"> Thomas S.</span>
+          <span class="testifier-job"> Chief Operating Officer
+          </span>
+        </p>
+      </div>
+
+      <div class="individual-testimonies">
+        <img src="images/image-jennie.jpg" alt="(- -)" class="testifier-image">
+        <p class="testimony"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
+          Highly recommended!</p>
+        <p class="testifier-profile"><span class="testifier-name"> Jennie F.</span>
+          <span class="testifier-job"> Business Owner
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cute-row-images">
+    <div class="cute-images milkbottles"></div>
+    <div class="cute-images tiny-orange"></div>
+    <div class="cute-images cone"></div>
+    <div class="cute-images sugercubes"></div>
+  </div>
+
+  <footer>
+    <div class="footer-wrapper">
+      <img src="images/logo.svg" alt="" class="footer-logo">
+      <div class="footer-links-wrapper">
+        <a href="#" class="footer-links">
+          <p>About</p>
+        </a><a href="#" class="footer-links">
+          <p>Services</p>
+        </a><a href="#" class="footer-links">
+          <p>Projects</p>
+        </a>
+      </div>
+      <div class="media-links-wrapper">
+        <a href="#"><img src="images/icon-facebook.svg" alt="" class="social-media-img"></a>
+        <a href="#"><img src="images/icon-instagram.svg" alt="" class="social-media-img"></a>
+        <a href="#"><img src="images/icon-twitter.svg" alt="" class="social-media-img"></a>
+        <a href="#"><img src="images/icon-pinterest.svg" alt="" class="social-media-img"></a>
+      </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/practitionerofsorts"
+        target="_blank">practitionerofsorts/promise</a>.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

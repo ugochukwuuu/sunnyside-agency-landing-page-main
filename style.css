@@ -93,11 +93,11 @@ nav{
   position: absolute;
   right: 0;
   top: 3.5em;
-  transform: translateX(70em);
+  transform: scale(0);
   transition: transform .3s ease;
 }
 .mobile-nav-container.slide{
-  transform: translateX(0em);
+  transform: scale(1);
   transition: transform .3s ease;
 }
 .mobile-nav-container::before{
@@ -500,6 +500,9 @@ footer{
   }
   .desktop-hide{
     display: block;
+  }
+  .mobile-nav-container{
+    position: absolute;
   }
 }
 .attribution {

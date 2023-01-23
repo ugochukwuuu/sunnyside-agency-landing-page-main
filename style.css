@@ -95,10 +95,12 @@ nav{
   top: 3.5em;
   transform: scale(0);
   transition: transform .3s ease;
+  display: none;
 }
 .mobile-nav-container.slide{
   transform: scale(1);
   transition: transform .3s ease;
+  display: block;
 }
 .mobile-nav-container::before{
   content: "";
